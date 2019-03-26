@@ -5,6 +5,33 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
       <style>
+      .dropbtn {
+          background-color: black;
+          color: white;
+          padding: 16px;
+          font-size: 10px;
+          border: none;
+      }
+      .dropdown {
+          position: relative;
+          display: inline-block;
+      }
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: lightgrey;
+          min-width: #px;
+          z-index: 1;
+      }
+      .dropdown-content a {
+          color: black;
+          padding: 6px 6px;
+          text-decoration: none;
+          display: block;
+      }
+      .dropdown-content a:hover {background-color: white;}
+      .dropdown:hover .dropdown-content {display: block;}
+      .dropdown:hover .dropbtn {background-color: grey;}
 
         body {
           background-color:   rgba(229,229,229, .3);
@@ -71,6 +98,15 @@
           <img src="http://clipart-library.com/image_gallery/481980.png" alt="film reel"/>
             <h1>Reel Reviews</h1>
         </div>
+      </div>
+
+    <div class="dropdown">
+     <button class="dropbtn">Name</button>
+     <div class="dropdown-content">
+     <a href="https://www.website.com">Name</a>
+     <a href="https://www.website.com">Name</a>
+     <a href="https://www.website.com">Name</a>
+      </div>
       </div>
 
       <div class="form">
