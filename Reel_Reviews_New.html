@@ -42,7 +42,7 @@
     		  border: none;
     	    }
 
-          h2 {
+          h2, h3 {
             font-family: 'Permanent Marker', cursive;
             background-color: teal;
           }
@@ -58,28 +58,28 @@
             color: white;
           }
 
-        h3 {
+        /* h3 {
           font-family: 'Permanent Marker', cursive;
-        }
+          background-color: teal;
+        } */
 
       </style>
     </head>
   <body>
 
-      <div class="container">
-        <div class="header">
-          <img src="http://clipart-library.com/image_gallery/481980.png" alt="film reel"/>
+      <header>
+        <div class="container">
+          <div class="header">
+            <img src="http://clipart-library.com/image_gallery/481980.png" alt="film reel"/>
             <h1>Reel Reviews</h1>
+            <div class="form">
+              <input id="query" type="text" placeholder="Find your nearest cinema..." />
+            </div>
+          </div>
         </div>
-      </div>
+      </header>
 
-      <div class="form">
-            <input id="query" type="text" placeholder="Find your nearest cinema..." />
-      </div>
-
-      <br></br>
-
-      <h2>Oscars 2019 - winners<h2>
+      <h2>Oscars 2019 - winners</h2>
 
         <div class="col-lg-4">
         <img src="ASIB.jpg" alt="A Star Is Born">
@@ -93,7 +93,7 @@
         <img src="GreenBook.jpg" alt="Green Book">
         </div>
 
-      <h3>Fresh picks<h3>
+      <h3>Fresh picks</h3>
 
         <div class="col-lg-4">
         <img src="Avengers.jpg" alt="A Star Is Born">
