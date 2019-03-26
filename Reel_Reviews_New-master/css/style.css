@@ -1,0 +1,60 @@
+<style>
+
+  body {
+    background-color:   rgba(229,229,229, .3);
+    margin-left: 10px;
+    }
+
+  .header img {
+      width: 1450px;
+      height: 70px;
+      color: black;
+      display: inline-block;
+      position: right;
+      }
+
+  h1 {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 100px;
+    margin-top: 0px;
+    }
+
+  .form {
+    width: 220px;
+    padding: 5px;
+    background-color: #3B3B3D;
+    display: flex;
+    border-radius: 18px 18px 18px 18px
+    }
+
+  input {
+    display: flex;
+    flex: 1;
+    padding: 10px 15px;
+    border-radius: 15px 15px 15px 15px;
+    outline: none;
+    border: none;
+    }
+
+    h2, h3 {
+      font-family: 'Permanent Marker', cursive;
+      background-color: teal;
+    }
+
+    .container {
+      display: flex;
+      width: 100%;
+      height: 300px;
+    }
+
+    .col-lg-4 {
+      flex: 1;
+      color: white;
+    }
+
+  /* h3 {
+    font-family: 'Permanent Marker', cursive;
+    background-color: teal;
+  } */
+
+</style>
