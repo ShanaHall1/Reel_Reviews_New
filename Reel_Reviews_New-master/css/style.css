@@ -1,50 +1,83 @@
 <style>
 
   body {
-    background-color:   rgba(229,229,229, .3);
+    background-color: black;
     margin-left: 10px;
     }
 
   .header img {
       width: 1450px;
       height: 70px;
-      color: black;
       display: inline-block;
       position: right;
       }
 
   h1 {
     font-family: 'Londrina Shadow', cursive;
-    font-size: 100px;
+    font-size: 120px;
     margin-top: 0px;
+    color: #63b69d;
+    display: inline-block;
+    float: none;
     }
 
-  .form {
-    width: 220px;
-    padding: 5px;
-    background-color: #3B3B3D;
-    display: flex;
-    border-radius: 18px 18px 18px 18px
-    }
-
-  input {
-    display: flex;
-    flex: 1;
-    padding: 10px 15px;
-    border-radius: 15px 15px 15px 15px;
-    outline: none;
-    border: none;
-    }
-
-    .dropdown {
-      left: 5px;
-      top: 10px;
+    .nav {
+      display: inline-block;
       float: right;
+      padding: 20px;
+      border-style: double;
+      font-family: 'Julius Sans One', sans-serif;
     }
+
+    /* Dropdown Button */
+    .dropbtn {
+      background-color: #63b69d;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      font-family: 'Julius Sans One', sans-serif;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      font-family: 'Julius Sans One', sans-serif;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      font-family: 'Julius Sans One', sans-serif;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-family: 'Julius Sans One', sans-serif;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
     h2, h3 {
-      font-family: 'Permanent Marker', cursive;
-      background-color: teal;
+      font-family: 'Julius Sans One', sans-serif;
+      background-color: #a8d6c8;
       font-size: 30px;
       width: inherit;
       text-align: center;
@@ -67,7 +100,55 @@
 
     .footer {
       text-align: center;
+      border-top: 30px;
     }
+
+    .panel-body {
+      text-align: left;
+    }
+
+    .container1 {
+    text-align: center;
+    }
+
+    .panel-heading {
+      font-family: 'Londrina Shadow', cursive;
+      font-size: 45px;
+      background-color: #a8d6c8;
+    }
+
+    .panel-body {
+      text-align: center;
+      list-style: none;
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: 25px;
+      color: #63b69d;
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .fa-facebook {
+  background: #3B5998;
+  color: white;
+  }
+
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  }
+
+  .fa-linkedin {
+  background: #007bb5;
+  color: white;
+  }
 
   /* h3 {
     font-family: 'Permanent Marker', cursive;
