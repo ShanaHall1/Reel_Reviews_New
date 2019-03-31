@@ -25,8 +25,11 @@
       display: inline-block;
       float: right;
       padding: 20px;
-      border-style: double;
       font-family: 'Julius Sans One', sans-serif;
+    }
+
+    input {
+      width: 230px;
     }
 
     /* Dropdown Button */
